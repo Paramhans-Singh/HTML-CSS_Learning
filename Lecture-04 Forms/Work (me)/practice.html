@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="email">Email</label>
+            <br>
+            <input type="text" id="email" name="email" required placeholder="abc@gmail.com">
+            <!--  input and label tags are inline tags and input is a single tag too -->
+            <!--  input types are text password submit email url date range  -->
+        </div>
+        <br>
+        <div>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" id="password" name="password" required placeholder="*******">
+        </div>
+        <br>
+        <div>
+            <label for="country">Country</label><br>
+            <input type="country" name="country" id="country" required value="India" disabled>
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+        <br>
+        <div>
+            <label for="range">Range</label>
+            <input type="range" id="range" name="range" min="10" max="50" step="5">
+        </div>
+    </form>
+</body>
+
+</html>
