@@ -1,0 +1,32 @@
+#outer-div{
+    background-color: gainsboro;
+    height:500px;
+    width: auto;
+
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+#outer-div div {
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+#div1{
+    background-color: red;
+}
+#div2{
+    background-color: green;
+}
+#div3{
+    background-color: blue;
+}
+#div4{
+    background-color: brown;
+}
+#div5{
+    background-color: purple;
+}
