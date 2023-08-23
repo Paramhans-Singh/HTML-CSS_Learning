@@ -1,0 +1,27 @@
+span{
+    display: block;
+}
+
+div{
+    /* display: inline; */
+
+    display: inline-block;
+    /*  we use inline block so that we can use inline (ek hi line mai agaye) and block property (to set 
+    height width vertical margins & padding) */
+    /*  in inline we can not set height width vertical-margin and padding but can set horizontals  */
+
+}
+
+#div1{
+ background-color: red;
+ height: 100px;
+ width: 100px;
+}
+
+#div2{
+background-color: green;
+height: 100px;
+width: 100px;
+
+margin-left: -4px;
+}

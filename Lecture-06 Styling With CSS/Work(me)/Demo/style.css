@@ -1,0 +1,51 @@
+p{
+    font-size: 20px;
+    color: blue;
+    /* font-weight: bold; ---> or bolder or value between 100 to 900*/ 
+    font-family: sans-serif;
+    text-transform: cursive;
+    /* text-decoration: underline; */
+    text-align: justify;
+    line-height: 30px;
+    margin: 20px;
+    font-style: italic;
+}
+
+#background{
+height: 100vh;
+width: 100vw;
+
+background-image: url(header2.avif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+/*  contain */
+
+background-attachment: fixed;
+/*  scroll */
+}
+
+#outer-div1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+    /* margin: 4px; */
+    margin-bottom: 10px ;
+    /* margin: auto; */
+
+    padding: 5px;
+}
+#inner-div{
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+}
+#outer-div2{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+
+    margin-top: 10px;
+    /* the vertical margins collapse but teh horizontal margins add up */
+}

@@ -1,0 +1,43 @@
+html{
+    font-size: 30px;
+    /*  we can change the font size of html to chnage rem base value  */
+}
+
+#div1{
+    height: 4rem;
+    /* 75vh; */
+    /* 200px; */
+    width: 6rem;
+    /* 100 vw */
+    /* 300px; */
+
+    background-color: red;
+    /* hexadcimal number()  */
+    /*  rgb(25,125,56) */
+    /* rgba(25,125,56,0)-->alpha value (how much opacity ) */
+    /* hsl(hue,saturation,lightness)---> hue is the degree of angle of color */
+    /*  hsla () with alpha value --> 0 transparent , 1 opaque , 0.5 mid level */
+
+
+    /* border-width: 2px 4px 6px 8px;
+    border-style: solid;
+    border-color: green; */
+
+    border: 4px solid green;
+    border-radius: 4px;
+}
+
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: cyan;
+}
+
+/*  units are 
+1. absolute ---> px , inch , cm
+2. relative ----> % , vh/vw(viewput) , rem(font size of html root element), em (reference to parent element)
+  */
+
+#sample-para{
+    border-left: 4px solid red;
+}
