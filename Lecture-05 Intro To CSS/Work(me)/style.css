@@ -1,0 +1,55 @@
+p {
+    /* color: red; */
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* p{
+    color: bisque;
+} */
+
+/* h4{
+    text-transform: uppercase;
+} */
+
+/*  class is used when you have to use that class frequently or in future to some other tag for genral purpose*/
+/*  class is used when u have to style multiple elements with same styling and id is used when to apply to some 
+unique set of elements */
+/* .uppercase {
+    text-transform: uppercase;
+}
+
+.cursive {
+    font-family: cursive;
+} */
+
+/*  id selector is used to give unique styling to some specific tag or portion it can be alphanumeric */
+/* you can also use inline instead of id but it will make it clumsy */
+#blog-desp {
+    color: aqua
+}
+
+h1, p{
+    font-family: sans-serif;
+}
+/*  grouping by tag you can group classes , ids and different tags together  */
+
+li h4 {
+    text-transform: uppercase;
+    font-family: cursive;
+
+}
+/*  this is nesting h4 under li  but it will be applied to all h4 under all li */
+
+#site-desp p{
+    color: red;
+}
+/*  so you can do nesting with class id and tags */
+
+#blog-title:hover{
+    color: orange;
+}
+/*  these are spseudo class (means state) when we hover it gets implemented */

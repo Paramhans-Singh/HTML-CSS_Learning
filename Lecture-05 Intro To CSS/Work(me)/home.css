@@ -1,0 +1,17 @@
+p{
+    color: aqua;
+}
+.color{
+    color: red;
+}
+#last-para{
+    color: blueviolet;
+}
+
+.color{
+    color: brown;
+}
+
+/*  specificity order is inline > id > class > type Selector(external css) */
+/*  same name ki classes ya id ho toh top to bottom order (latest wala ) */
+
