@@ -34,7 +34,7 @@
     <li>Jumbotron Template</li>
   </ol>
    <img src="https://lh3.googleusercontent.com/FCTJV2u4ETqtkvFn0I1fY184UbdpWhqpAyyV6w7732ookhFnbAF_gBaWMNfAw28z_GhVeZmQIY7jbUuDlFEjWWv6ldLe7FvrJg4=w932" align = "right" height="400" width="500">
-
+<li>Tailwind CSS</li>
 </ul>
 </div>
 
