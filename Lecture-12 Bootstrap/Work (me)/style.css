@@ -1,0 +1,33 @@
+
+
+.navbar-collapse{
+justify-content: right !important;
+}
+
+.nav-tabs{
+    border-bottom: none !important;
+}
+
+.nav-tabs li {
+    padding-left: 10px;
+}
+
+.active{ 
+    border-radius: 15% !important;
+}
+
+
+.dropdown-menu li a {
+    color: black !important;
+}
+
+@media screen and (max-width:900px) {
+    .nav-tabs li a{
+        padding-left: 10px !important;
+    }
+    .active{
+        /* font-size: 1.3rem; */
+        text-align: center;
+        border-radius: 0% !important;
+    }
+}
